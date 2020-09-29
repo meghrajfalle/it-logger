@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "materialize-css": "^1.0.0",
+    "moment": "^2.29.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-moment": "^1.0.0",
     "react-scripts": "3.4.x"
   },
   "devDependencies": {
