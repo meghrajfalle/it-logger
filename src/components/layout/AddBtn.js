@@ -21,7 +21,7 @@ const AddBtn = () => {
         </li>
         <li>
           <a
-            href='#tech-modal'
+            href='#add-tech-modal'
             className='btn-floating  waves-effect red modal-trigger'
           >
             {' '}
