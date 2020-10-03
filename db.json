@@ -20,6 +20,20 @@
       "attention": false,
       "tech": "Sara Wilson",
       "date": "2020-09-02T15:46:48.690Z"
+    },
+    {
+      "message": "Changed network card on server 007",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2020-10-03T12:33:13.198Z",
+      "id": 4
+    },
+    {
+      "message": "Please do task PSMI-123 and reply to the comment",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2020-10-03T12:41:01.080Z",
+      "id": 5
     }
   ],
   "techs": [
