@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import TechItem from './TechItem';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
@@ -7,6 +7,8 @@ import { getTechs } from '../../actions/techActions';
 const TechListModal = ({ getTechs, tech: { techs, loading } }) => {
   useEffect(() => {
     getTechs();
+    // eslint-disable-next-line
+    // to disable this warning  React Hook useEffect has a missing dependency: 'getTechs'. Either include it or remove the dependency array. If 'getTechs' changes too often, find the parent component that defines it and wrap that definition in useCallback  react-hooks/exhaustive-deps
   }, []);
 
   return (
